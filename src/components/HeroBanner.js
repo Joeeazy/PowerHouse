@@ -1,7 +1,6 @@
 import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 import herobannerimg from "../assets/images/banner.png";
-import herobannerimg2 from "../assets/images/backgroundimg.jpg";
 function HeroBanner() {
   return (
     <Box
@@ -42,7 +41,7 @@ function HeroBanner() {
       >
         Exercise
       </Typography>
-      <img src={herobannerimg} alt="banner image" className="hero-banner-img" />
+      <img src={herobannerimg} alt="banner" className="hero-banner-img" />
     </Box>
   );
 }
